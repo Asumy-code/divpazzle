@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+    background-color: #f00;
+    width:400px;
+    height:100px;
+}
+.w-block {
+    width: 60px;
+}
