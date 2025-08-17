@@ -1,17 +1,100 @@
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
-
-a {
-  text-decoration: none;
+    margin:0 auto;
 }
 
 .top-wrapper {
+  margin-top: 20px;
+  margin-right:20px;
+}
+
+.top-container {
     background-color: #f00;
     width:400px;
     height:100px;
 }
-.w-block {
-    width: 60px;
+
+.p-boxes{
+ display:flex;
+ float:right;
+ margin:20px 20px;
+}
+
+.p-box1 {
+ width:40px;
+ height:40px;
+ background-color: #6729a0;
+ border-top:10px solid #fff;
+ border-right:5px solid #fff;
+ border-bottom:10px solid #fff;
+ border-left:10px solid #fff;
+}
+
+.p-box2 {
+ width:40px;
+ height:40px;
+ background-color: #6729a0;
+ border-top:10px solid #fff;
+ border-right:5px solid #fff;
+ border-bottom:10px solid #fff;
+ border-left:5px solid #fff;
+}
+
+.p-box3 {
+ width:40px;
+ height:40px;
+ background-color: #6729a0;
+ border-top:10px solid #fff;
+ border-right:10px solid #fff;
+ border-bottom:10px solid #fff;
+ border-left:5px solid #fff;
+}
+
+.second-container {
+  display:flex;
+}
+
+.g-box {
+  width:150px;
+  height:250px;
+  background-color: #0a5;
+}
+
+.b-box {
+  width:250px;
+  height:250px;
+  background-color:#2563eb;
+}
+
+.ora-boxes {
+  margin-top:40px;
+  margin-left:40px;
+}
+
+.ora-box1 {
+  width:140px;
+  height:40px;
+  background-color: #ff863f;
+  border:5px solid #fff;
+}
+
+.ora-box2 {
+  width:140px;
+  height:40px;
+  background-color: #ff863f;
+  border:5px solid #fff;
+  margin-top:10px;
+}
+
+.ora-box3 {
+  width:140px;
+  height:40px;
+  background-color: #ff863f;
+  border:5px solid #fff;
+  margin-top:10px;
+}
+
+.third-container {
+  width:400px;
+  height:100px;
+  background-color: #fd0;
 }
